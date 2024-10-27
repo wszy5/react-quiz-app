@@ -26,7 +26,7 @@ const App = () => {
     setScore(0);
     setQuizCompleted(false);
     try {
-      const response = await axios.get('https://frog01-20911.wykr.es/questions/', {
+      const response = await axios.get('https://gwara-wlkp-api.vercel.app/questions/', {
         params: {
           questionAmount: amount,
           questionLevel: level
